@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".pin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:background="#f39c12" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize">
+
+                <LinearLayout
+                    android:id="@+id/lnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:gravity="left">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icn_back" />
+
+                        <TextView
+                            android:id="@+id/tvPinTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/man_bold"
+                            android:gravity="center"
+                            android:text="PIN Confirmation"></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#F3F5F9"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginBottom="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/filicash_logo1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <EditText
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:id="@+id/etPin"
+                        android:maxLength="4"
+                        android:hint="Enter 4 Digit PIN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="4dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:fontFamily="@font/man_semi"
+                        android:inputType="textWebPassword"
+                        android:maxLines="1"
+                        android:paddingStart="10sp"
+                        android:paddingEnd="10sp"
+                        android:textSize="14dp"></EditText>
+
+
+                    <LinearLayout
+                        android:weightSum="6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/lnButton1"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButton2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButton3"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:weightSum="6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/lnButton4"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButton5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButton6"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnButton7"
+                        android:weightSum="6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButton8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButton9"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="9" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:weightSum="6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:visibility="invisible"
+                                android:id="@+id/tvSavePin"
+                                android:fontFamily="@font/man_bold"
+                                android:gravity="center"
+                                android:text="Save"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButton0"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="#f39c12">
+
+                            <TextView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnButtonClose"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="#f39c12">
+
+                            <ImageView
+                                android:padding="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:fontFamily="@font/man_semi"
+                                android:textSize="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/icn_close" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

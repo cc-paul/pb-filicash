@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Filicash</string>
+    <string name="terms">
+        Welcome to FiliCash. Please read these TERMS AND CONDITIONS (T and Cs) prior to completing the registration for an account with FiliCash. The following TandCs shall govern the terms under which you may access and use the products of FiliCash App and the services associated with it (together “FiliCash Service” or “FiliCash Services”). By registering to FiliCash or using the FiliCash App, you accept and agree to be legally bound by the TandCs. Please also read the Privacy Policy of FiliCash and Acceptable Use Policy before you use any portion of the FiliCash Service. The Privacy Policy describes how your personal data is collected and processed when you use the FiliCash Service. The Acceptable Use Policy defines the set of rules that you should comply with when using the FiliCash App. If you do not understand or do not wish to be bound by the TandCs or Privacy Policy, you should not access or use any portion of the FiliCash Service.
+These T and Cs shall be effective, valid and binding from the time you agreed to it and will exist up to the time that it is terminated by you or us, save for those provisions that will remain effective after termination as stated in these TandCs, laws or regulations.
+    </string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link"><u>What documents do I need to submit?</u></string>
+    <string name="printable"><u>Printable QR</u></string>
+    <string name="from"><u>Select Route</u></string>
+    <string name="to"><u>Select Route</u></string>
+    <string name="pass"><u>Change Password</u></string>
+    <string name="pin"><u>Change PIN</u></string>
+    <string name="driver"><u>Change Driver Details</u></string>
+    <string name="logout"><u>Logout</u></string>
+    <string name="user_type">U+2190 Please Select User Type ></string>
+</resources>

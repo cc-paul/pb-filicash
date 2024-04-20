@@ -1,0 +1,47 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Filicash/app/src/main/res/drawable-v24/layout_bg.xml" value="0.214" />
+        <entry key="..\:/Filicash/app/src/main/res/drawable/icn_road.xml" value="0.2405" />
+        <entry key="..\:/Filicash/app/src/main/res/drawable/icn_ticket.xml" value="0.2405" />
+        <entry key="..\:/Filicash/app/src/main/res/drawable/icn_usertype.xml" value="0.231" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_change_p_i_n.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_change_password.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_driver_details.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_forgot_password.xml" value="0.3247863247863248" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_history.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_location_list.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_login.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_main.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_q_routput.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_receipt.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_register.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_topup.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_transfer_money.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_transpo_history.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_user_type.xml" value="0.25" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_view_profile.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_wallet.xml" value="0.35555555555555557" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/activity_welcome.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/bottom_cashout.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/bottom_receive.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/bottom_topup.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/dialog_pin.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/email_dialog.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/layout_history.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/progress.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/rv_location.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/rv_usertype.xml" value="0.36822916666666666" />
+        <entry key="..\:/Filicash/app/src/main/res/layout/user_input_dialog_box.xml" value="0.36822916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

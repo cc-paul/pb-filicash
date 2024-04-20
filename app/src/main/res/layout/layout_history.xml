@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <ImageView
+            android:id="@+id/imgFlow"
+            android:src="@drawable/arrow_sent"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvLabel"
+                    android:fontFamily="@font/man_bold"
+                    android:text="{{Label}}"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#f39c12"
+                    android:id="@+id/tvIsprintable"
+                    android:fontFamily="@font/man_semi"
+                    android:text="@string/printable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:id="@+id/tvAmount"
+                    android:gravity="right"
+                    android:fontFamily="@font/man_bold"
+                    android:text="{{Label}}"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:fontFamily="@font/man_light"
+                    android:text="{{Label}}"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:gravity="right"
+                    android:fontFamily="@font/man_light"
+                    android:text="{{Label}}"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vwReceived"
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="#F3F5F9" />
+
+</LinearLayout>
